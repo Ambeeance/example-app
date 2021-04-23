@@ -1,4 +1,4 @@
-const { ambeeance } = require('ambeeance-client')
+const { ambeeance } = require('ambeeance-loader')(require)
 const axios = require('axios');
 const express = require('express');
 require('express-async-errors');

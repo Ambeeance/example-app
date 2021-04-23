@@ -11,9 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ambeeance-client": "0.0.3",
+    "ambeeance-loader": "^1.0.0",
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1"
+  },
+  "devDependencies": {
+    "ambeeance-client": "0.0.3"
   }
 }
